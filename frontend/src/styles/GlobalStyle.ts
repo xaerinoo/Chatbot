@@ -32,12 +32,18 @@ export const GlobalStyle = createGlobalStyle`
         #root {
             width: 100%;
         }
+        input {
+            width: 250px;
+        }
     }
 
     /* 데스크탑 */
     @media (min-width: 769px) {
         #root {
             width: 1000px;
+        }
+        input {
+            width: 400px;
         }
     }
 
