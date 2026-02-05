@@ -1,8 +1,10 @@
-import React from 'react'
+import HistoryButton from "@/components/HistoryButton"
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <>
+      <HistoryButton />
+    </>
   )
 }
 

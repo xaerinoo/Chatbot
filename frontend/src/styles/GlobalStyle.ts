@@ -9,7 +9,10 @@ export const GlobalStyle = createGlobalStyle`
         font-display: swap;
     }
 
-    html, body {
-        font-family: 'Pretendard', sans-serif;
+    button {
+        cursor: pointer;
+        background: none;
+        border: none;
+        padding: 0;
     }
 `;
